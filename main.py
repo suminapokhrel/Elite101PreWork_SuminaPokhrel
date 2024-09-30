@@ -60,3 +60,18 @@ def random_joke():
 
 # https://www.comicrelief.org/posts/150-jokes-for-kids
 # https://thecompanyofdads.com/dad-jokes/
+
+def main(): 
+    welcome()
+    name, age = user_info()
+
+    while True:
+        ask_how_can_help(name)
+        choice = input("What will it be? (Enter one of the numbers provided): ")
+
+        if choice == '1':
+            print(random_fun_fact())
+        elif choice == '2':
+            print(random_joke())
+        elif choice == '3':
+            advice_choice = get_advice()
