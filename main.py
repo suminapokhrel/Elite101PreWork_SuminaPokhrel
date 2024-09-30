@@ -75,3 +75,18 @@ def main():
             print(random_joke())
         elif choice == '3':
             advice_choice = get_advice()
+            if advice_choice == '1':
+                print("Relationships can be tough, but it is important to know when it's time to move on or not. If someone is being toxic or hurtful (physically or mentally), you should leave. If you're happy overall and it's just a bump in the road, then try to work it out.")
+            elif advice_choice == '2':
+                print("Friendships can sometimes be challenging. Surround yourself with those who uplift you, and don't hesitate to distance yourself from negativity.")
+            elif advice_choice == '3':
+                print("Family can be complicated. Communication is key, so try to express your feelings openly and seek understanding.")
+            elif advice_choice == '4':
+                print("Mental health is crucial. Remember to take care of yourself, reach out to loved ones, or seek professional help if needed. And remember, you're not alone.")
+            else:
+                print("Invalid choice for advice category. Please try again.")
+        elif choice == '4':
+            print(f"Thank you for chatting with me, {name}! I enjoyed our conversation and I hope to see you soon! Goodbye 👋")
+            break
+        else:
+            print("Oops! That didn't seem right. Try again.")
