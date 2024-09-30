@@ -90,3 +90,5 @@ def main():
             break
         else:
             print("Oops! That didn't seem right. Try again.")
+if __name__ == "__main__":
+    main()
