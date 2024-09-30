@@ -1,4 +1,4 @@
-
+import random
 
 def welcome():
     print("HIII! Welcome to SumaChat, your friendly chatbot! 🎀")
@@ -25,3 +25,18 @@ def get_advice():
     print("4. Mental Health")
     choice = input("Enter a number that represents what you need: ")
     return choice
+
+def get_random_fun_fact():
+    facts = [
+        "The fear of long words is called Hippopotomonstrosesquippedaliophobia, which is also a long word. 😂",
+        "Snails have between 1,000 and 12,000 teeth. 🐌",
+        "A chicken once lived for 18 MONTHS without his head! 😨",
+        "Deaf people are known to use sign language in their sleep.😴",
+        "Being bored is actually a 'high arousal state' physiologically. 🧠",
+        "LEGO bricks withstand compression better than concrete. 🧱",
+        "A lightning bolt is five times hotter than the surface of the Sun. ️⛈",
+        "Someone left a family photo on the Moon. 🌑",
+        "You have a 50 percent chance of sharing a birthday with a friend. 🎂",
+        "Pine trees can tell if it's about to rain. 🌲",
+    ]
+    return random.choice(facts)
