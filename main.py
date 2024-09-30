@@ -41,6 +41,8 @@ def random_fun_fact():
     ]
     return random.choice(facts)
 
+# https://www.sciencefocus.com/science/fun-facts
+
 def random_joke():
     jokes = [
         "What did the shark say when he ate the clownfish? This tastes a little funny. 😂",
@@ -55,3 +57,6 @@ def random_joke():
         "What's blue and not very heavy? Light blue. 💙",
     ]
     return random.choice (jokes)
+
+# https://www.comicrelief.org/posts/150-jokes-for-kids
+# https://thecompanyofdads.com/dad-jokes/
