@@ -1,3 +1,5 @@
+
+
 def welcome():
     print("HIII! Welcome to SumaChat, your friendly chatbot! 🎀")
     print("I'm here to make you smile and your day a little brighter! Before you can start using SumaChat, I have to get to know you!")
@@ -14,3 +16,12 @@ def ask_how_can_help(name):
     print("2. Tell me a joke!")
     print("3. I need some advice.")
     print("4. Exit the conversation 🙁")
+
+def get_advice():
+    print("\nWhat type of advice do you need? Choose one: ")
+    print("1. Relationship")
+    print("2. Friendship ")
+    print("3. Family")
+    print("4. Mental Health")
+    choice = input("Enter a number that represents what you need: ")
+    return choice
