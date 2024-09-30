@@ -1,4 +1,5 @@
 import random
+import time
 
 def welcome():
     print("HIII! Welcome to SumaChat, your friendly chatbot! 🎀")
@@ -90,5 +91,8 @@ def main():
             break
         else:
             print("Oops! That didn't seem right. Try again.")
+        
+        time.sleep(4)
+
 if __name__ == "__main__":
     main()
