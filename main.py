@@ -26,7 +26,7 @@ def get_advice():
     choice = input("Enter a number that represents what you need: ")
     return choice
 
-def get_random_fun_fact():
+def random_fun_fact():
     facts = [
         "The fear of long words is called Hippopotomonstrosesquippedaliophobia, which is also a long word. 😂",
         "Snails have between 1,000 and 12,000 teeth. 🐌",
@@ -40,3 +40,18 @@ def get_random_fun_fact():
         "Pine trees can tell if it's about to rain. 🌲",
     ]
     return random.choice(facts)
+
+def random_joke():
+    jokes = [
+        "What did the shark say when he ate the clownfish? This tastes a little funny. 😂",
+        "Have you heard the rumor about butter? Nevermind, I shouldn't be spreading it. 🧈",
+        "What does a spider's bride wear? A webbing dress. 👰",
+        "What kind of shoes do spies wear? Sneak-ers. 🤣",
+        "Which letter of the alphabet has the most water? The 'C'! 🌊",
+        "Why can't your head be 12 inches long? Because then it would be a foot. 🦶",
+        "What is fast, loud, and crunchy? A rocket chip. 🚀",
+        "Why couldn't the little boy go see the pirate movie? Because it was rated 'Arrgh'! 🛳",
+        "Which days are the strongest? Saturday and Sunday. The rest are weekdays. 💪",
+        "What's blue and not very heavy? Light blue. 💙",
+    ]
+    return random.choice (jokes)
